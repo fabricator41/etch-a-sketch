@@ -1,4 +1,10 @@
 const container = document.querySelector('.container');
-const square = document.createElement('div');
+const button = document.querySelector('#btn');
 
-container.addEventListener('mouseover', deneme);
+button.addEventListener('click', deneme);
+
+function deneme() {
+  const square = document.createElement('div');
+  container.appendChild(square);
+  square.classList.add('square');
+}
