@@ -11,6 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #000;
+  color: whitesmoke;
 }
 
 .container {
@@ -22,8 +23,18 @@ body {
 }
 
 .square {
-  background-color: black;
-  width: 160px;
-  height: 160px;
+  background-color: green;
+  min-width: 8px;
+  min-height: 8px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
   border: 1px solid #fff;
+}
+
+button {
+  font-size: 24px;
+  background-color: blue;
+  color: inherit;
+  padding: 16px 24px;
 }
