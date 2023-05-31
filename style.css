@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #000;
+  background-color: goldenrod;
   color: whitesmoke;
 }
 
@@ -23,13 +23,11 @@ body {
 }
 
 .square {
-  background-color: green;
-  min-width: 8px;
-  min-height: 8px;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid #fff;
+  border: 1px solid #000;
+}
+
+.black {
+  background-color: #000;
 }
 
 button {
