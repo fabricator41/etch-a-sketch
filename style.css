@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #444;
+  color: #eee;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body > * {
+  margin-top: 5px;
+}
+
+.container {
+  background: #fff;
+  width: 800px;
+  height: 800px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
